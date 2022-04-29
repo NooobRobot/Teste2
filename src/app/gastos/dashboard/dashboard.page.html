@@ -1,0 +1,15 @@
+
+<ion-content> 
+  <div class="ion-padding">
+    <ion-card>
+      <ion-card-header>
+        Gastos
+      </ion-card-header>
+      <ion-card-content>
+        <button class="button" role="button" ion-button (click)="showChart()">Mostrar Gráfico</button>
+        <div id="grafico"></div> 
+        <canvas class="teste" #pieCanvas style="position: relative; height:20vh; width:40vw"></canvas>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
